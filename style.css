@@ -4,48 +4,57 @@ body {
     background: #e8f2ff;
 }
 
-/* ---- HEADER FIX ---- */
+/* HEADER */
 header {
     background: #3f8cff;
     color: white;
-    padding: 15px 20px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
-/* Left Title */
+/* LEFT TITLE */
 .title {
     margin: 0;
-    font-size: 22px;
+    font-size: 26px;
 }
 
-/* Middle Navigation */
-.navbar {
+/* RIGHT SIDE GROUP */
+.right-section {
     display: flex;
-    gap: 25px; /* spacing between menu items */
+    align-items: center;
+    gap: 20px;
 }
 
+/* NAVBAR BUTTONS */
 .navbar a {
-    color: white;
-    font-size: 18px;
+    background: white;
+    color: #3f8cff;
+    padding: 8px 16px;
+    border-radius: 10px;
     text-decoration: none;
+    font-size: 16px;
     font-weight: bold;
 }
 
+.navbar a.active,
 .navbar a:hover {
-    text-decoration: underline;
+    background: #d9e7ff;
+    color: #003d99;
 }
 
-/* Right Profile Photo */
+/* PROFILE IMAGE */
 .profile-pic {
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 4px solid white;
 }
 
-/* ---- MAIN CONTAINER ---- */
+/* MAIN CONTAINER */
 .container {
     background: white;
     width: 80%;
@@ -55,7 +64,7 @@ header {
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
-/* ---- BUTTON ---- */
+/* BUTTON */
 .btn {
     padding: 10px 25px;
     background: #3f8cff;
@@ -70,12 +79,10 @@ header {
     background: #1f6be0;
 }
 
-/* ---- FOOTER ---- */
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
     color: #555;
 }
-
-
